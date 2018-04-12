@@ -8,12 +8,6 @@ body {
 	max-width: 1920px;
 }
 
-
-.container {
-	padding: 0 10rem;
-	position: relative;
-}
-
 .btn-tr {
 	@include button-bg(transparent,$accent-color);
 	border: 5px solid $accent-color;
