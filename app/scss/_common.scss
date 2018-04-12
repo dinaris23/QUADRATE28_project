@@ -1,0 +1,28 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: $common-font;
+	@include fontSize(20);
+	max-width: 1920px;
+}
+
+
+.container {
+	padding: 0 10rem;
+}
+
+.btn-tr {
+	@include button-bg(transparent,$accent-color);
+	border: 5px solid $accent-color;
+}
+.btn-white {
+	@include button-bg($white-color,$accent-color);
+}
+.btn-s {
+	@include fontSize(22);
+}
+.btn-b {
+	@include fontSize(30);
+}

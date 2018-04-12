@@ -1,0 +1,84 @@
+.header {
+	height: 100vh;
+	position: relative;
+	&_title{
+		@include fontSize(100);
+		text-transform: uppercase;
+		color: $accent-color;
+		margin: 0;
+		margin-bottom: 16rem;  
+	}
+	&_content {
+		padding-top: 20%;
+	}
+	&_nav {
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+		background: $gray-color;
+		padding: 25px 25px 25px 40px;
+		&_top {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+	&_menu {
+		padding-left: 0;	
+		&_item {
+		list-style: none;
+		padding-bottom: 25px;
+
+		}
+		&_link {
+			text-decoration: none;
+			color: $white-color;
+			text-transform: uppercase;
+			font-family: $common-bold-font;
+			font-weight: bold;
+			@include fontSize(16);
+				&:hover {
+				color: $accent-color;
+				transition: all 0.2s ease-out 0.1s;
+			}
+
+		}
+	}	
+	&_submenu {
+		padding-left: 0;
+		 &_item {
+		 	list-style: none;
+		 	padding-bottom: 25px;
+		 }
+		 &_link {
+		 	text-decoration: none;
+			color: $white-color;
+			font-family: $common-font;
+			@include fontSize(16);
+				&:hover {
+				color: $accent-color;
+				transition: all 0.2s ease-out 0.1s;
+			}
+		 }
+	}
+
+
+}
+.lang {
+	color: $white-color;
+	@include fontSize(16);
+	margin-right: 100px;
+	&_link {
+		text-decoration: none;
+		color: $white-color;
+		&__active {
+			color: $accent-color;
+		}
+		&:hover {
+			color: $accent-color;
+			transition: all 0.3s ease-out 0.2s;
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+// Base import
+
+@import "normalize";
+
+// Arguments
+
+@import "variables";
+@import "mixins";
+@import "common";
+@import "fonts";
+
+// Styles import
+
+@import "layout/header";
+@import "layout/about";
+@import "layout/country";
+@import "layout/departments";
+@import "layout/intro";
+@import "layout/tasks";
+@import "layout/team";
