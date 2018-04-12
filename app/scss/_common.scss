@@ -64,4 +64,12 @@ body {
     	top: 5px;
     	background: $white-color;
 	}
-
+.sc-title {
+	color: $gray-color;
+	@include fontSize(72);
+	font-family: $common-bold-font;
+	text-transform: uppercase;
+	&__sm {
+		@include fontSize(36);
+	}
+}

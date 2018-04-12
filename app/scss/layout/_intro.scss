@@ -1,0 +1,22 @@
+.intro {
+	margin-top: $sc-margin-t;
+	&_row {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		
+	}
+	&_col {
+		flex-grow: 1;
+		flex-basis: 50%;
+		text-align: center;
+		&:last-child {
+			text-align: left;
+		}
+		
+
+	}
+	&_content {
+		padding-right: 5%;
+	}
+}
