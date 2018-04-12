@@ -11,6 +11,7 @@ body {
 
 .container {
 	padding: 0 10rem;
+	position: relative;
 }
 
 .btn-tr {
@@ -25,4 +26,48 @@ body {
 }
 .btn-b {
 	@include fontSize(30);
+}
+.burger {
+	display: none;
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    top: 5%;
+    right: 5%;
+		&_l {
+    		position: absolute;
+    		display: block;
+    		height: 3px;
+    		width: 100%;
+    		background: $accent-color;
+    		transition: all .4s;
+				&__top {
+    				top: 0;
+				}
+				&__middle {
+    				top: 8px;
+				}
+				&__bottom {
+    				bottom: 0;
+				}
+			}
+
+		}
+	.burger_l__top.active {
+    	transform: rotate(45deg);
+    	top: 5px;
+	}
+	.burger_l__middle.active {
+    	background: transparent;
+    	transform: rotate(90deg);
+	}
+	.burger_l__bottom.active {
+    	transform: rotate(-45deg);
+    	top: 5px;
+	}
+
+.open {
+	display: block;
 }
