@@ -15,8 +15,8 @@
   text-decoration: none;
   display: inline-block;
   &:hover {
-    transform: scale(1.1);
-    transition: all 0.3s ease;
+    background: $text-color;
+    color: $white-color;
   }
   &:active {
     transform: scale(1.1);
