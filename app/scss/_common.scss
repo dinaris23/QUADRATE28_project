@@ -52,6 +52,8 @@ body {
 	.burger_l__top.active {
     	transform: rotate(45deg);
     	top: 5px;
+    	background: $white-color;
+
 	}
 	.burger_l__middle.active {
     	background: transparent;
@@ -60,8 +62,6 @@ body {
 	.burger_l__bottom.active {
     	transform: rotate(-45deg);
     	top: 5px;
+    	background: $white-color;
 	}
 
-.open {
-	display: block;
-}
