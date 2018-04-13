@@ -76,7 +76,8 @@ body {
 		color: $accent-color;
 	}
 }
-.dots {
+.dots,
+.btn-more {
 	display: inline-block;
 	text-decoration: none;
 	position: absolute;
@@ -88,4 +89,8 @@ body {
 		height: 13px;
 		background: $accent-color;
 	}
+}
+.btn-more {
+	
+	opacity: 0;
 }

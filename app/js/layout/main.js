@@ -19,4 +19,8 @@ jQuery(document).ready(function(){
                 }
         });
     });
+   // $('.dots').click(function(){
+       // $('.departments_block').css("background-color","#dc1921");
+        //});
+        
 });    

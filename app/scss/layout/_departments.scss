@@ -15,6 +15,7 @@
 		padding-top: 4%;
 		padding-right: 3%;
 		position: relative;
+		transition: $animation;
 
 		&:nth-child(odd) {
 			border-right: $grey-border;
@@ -26,8 +27,25 @@
 	}
 	&_item {
 		margin-bottom: 20px;
+		color: $accent-color;
+		& span {
+			color: $gray-color;
+		}
 	}
 	&_list {
 		padding-bottom: 15%;
 	}
+}
+.departments_block:hover {
+	background: $accent-color;
+	box-shadow: $shadow;
+}
+.departments_block:hover>h2,
+.departments_block:hover>ul li,
+.departments_block:hover>ul li span
+.departments_block:hover.btn-more {
+	color: $white-color;
+}
+.departments_block:hover .btn-more {
+	opacity: 1;
 }
