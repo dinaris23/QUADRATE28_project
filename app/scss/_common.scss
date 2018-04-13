@@ -75,6 +75,9 @@ body {
 	&__r {
 		color: $accent-color;
 	}
+	&__w {
+		color: $white-color;
+	}
 }
 .dots,
 .btn-more {
@@ -91,6 +94,5 @@ body {
 	}
 }
 .btn-more {
-	
 	opacity: 0;
 }

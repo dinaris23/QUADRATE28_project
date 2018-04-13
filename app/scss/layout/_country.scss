@@ -1,0 +1,11 @@
+.country {
+	background: $accent-color;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $white-color;
+	&_group {
+		text-align: center;
+	}
+}
