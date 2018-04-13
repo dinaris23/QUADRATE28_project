@@ -1,0 +1,23 @@
+.about {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	&_wrapper {
+		padding: 0 5%;
+	}
+	&_content {
+		display: flex;
+
+	}
+	&_item {
+		flex-grow: 1;
+		flex-basis: 20%;
+		padding: 0 2%;
+		border-right: 1px solid $accent-color;
+		&:first-child {
+			padding-left: 0;
+		}
+		&:last-child {
+			padding-right: 0;
+		}
+	}
+}
