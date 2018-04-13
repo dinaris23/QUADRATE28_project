@@ -2,4 +2,15 @@
     html {
         font-size: 5px;
     }
+    .intro_img {
+          width: 33px;
+          height: auto;
+          top: 2em;
+          left: -1em;
+          &__db {
+            width: 77px;
+            height: auto;
+            left: -2.5em;
+      }
+   }
 }

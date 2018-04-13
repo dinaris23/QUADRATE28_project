@@ -17,5 +17,16 @@
   			width: 50%;
   			height: auto;
   		}
+      &_img {
+          width: 45px;
+          height: auto;
+          top: 2em;
+          left: -1em;
+          &__db {
+            width: 105px;
+            height: auto;
+            left: -2.5em;
+      }
+   }
 	}
 }

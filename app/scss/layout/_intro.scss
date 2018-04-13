@@ -1,9 +1,10 @@
 .intro {
-	margin-top: $sc-margin-t;
+	padding-top: $sc-padding-t;
 	&_row {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		margin-bottom: $sc-padding-t;
 		
 	}
 	&_col {
@@ -19,7 +20,67 @@
 	&_content {
 		padding-right: 5%;
 	}
-	&_line {
-		margin-top: $sc-margin-t;
+	&_img {
+		position: absolute;
+		top: 3em;
+    	left: -2em;
+    	&__db {
+    		left: -5em;
+    	}
 	}
+	&_line {
+		padding: 0;
+		width: 80%;
+		float: right;
+		border-bottom: 1px solid $light-grey-color;
+		position: relative;
+		&_circle {
+			width: 1em;
+  			height: 1em;
+  			line-height: 1em;
+  			border-radius: 1em;
+  			background: $light-grey-color;
+  			margin-top: 0;
+  			display: inline-block;
+  			position: absolute;
+  			top: -0.5em;
+  			&::before {
+  				content: attr(data-num);
+  				position: absolute;
+  				bottom: 2em;
+    			left: -50%;
+  				color: $gray-color;
+  			}
+  			&__1 {
+  		
+  			}
+  			&__2 {
+  				left: 20%;
+  				
+  				}
+  				
+	       
+	        &__3 {
+	        	left: 40%;
+	        	
+  				}
+	      
+	        &__4 {
+	        	left: 60%;
+	        	
+  				}
+	      
+	        &__5 {
+	        	left:  80%;
+
+	        }
+	        &__active {
+	        	color: red;
+	        }
+  		
+        }}
+    }
+.intro_line_circle:last-child::before {
+	color: $accent-color;
+
 }
