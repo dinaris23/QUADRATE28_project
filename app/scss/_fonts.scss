@@ -1,32 +1,30 @@
 
 @font-face {
-    font-family: 'tt_normsbold';
-    src: url('ttnorms-bold-webfont.woff2') format('woff2'),
-         url('ttnorms-bold-webfont.woff') format('woff'),
-         url('TTNorms-Bold.otf') format('otf'),
-         url('ttnorms-bold-webfont.svg#tt_normsbold') format('svg');
+    font-family: 'tt_normsextrabold';
+    src: url('../fonts/ttnorms-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/ttnorms-extrabold-webfont.woff') format('woff'),
+         url('../fonts/ttnorms-extrabold-webfont.svg#tt_normsextrabold') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'tt_normsbold';
+    src: url('../fonts/ttnorms-bold-webfont.woff2') format('woff2'),
+         url('../fonts/ttnorms-bold-webfont.otf') format('ttf'),
+         url('../fonts/ttnorms-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 @font-face {
     font-family: 'tt_normsregular';
-    src: url('ttnorms-regular-webfont.woff2') format('woff2'),
-         url('ttnorms-regular-webfont.woff') format('woff'),
-         url('TTNorms-Regular.otf') format('otf'),
-         url('ttnorms-regular-webfont.svg#tt_normsregular') format('svg');
+    src: url('../fonts/ttnorms-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ttnorms-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
-
-@font-face {
-    font-family: 'tt_normsextrabold';
-    src: url('ttnorms-extrabold-webfont.woff2') format('woff2'),
-         url('ttnorms-extrabold-webfont.woff') format('woff'),
-         url('ttnorms-extrabold-webfont.svg#tt_normsextrabold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}

@@ -1,6 +1,6 @@
 .intro {
 	padding-top: $sc-padding-t;
-	
+
 	&_row {
 		display: flex;
 		flex-direction: row;
@@ -24,7 +24,7 @@
 	&_img {
 		position: absolute;
 		top: 3em;
-    	left: -2em;
+    	left: -1.5em;
     	&__db {
     		left: -5em;
     	}

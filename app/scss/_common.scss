@@ -72,4 +72,20 @@ body {
 	&__sm {
 		@include fontSize(36);
 	}
+	&__r {
+		color: $accent-color;
+	}
+}
+.dots {
+	display: inline-block;
+	text-decoration: none;
+	position: absolute;
+	bottom: 10%;
+    right: 10%;
+	& span {
+		display: inline-block;
+		width: 13px;
+		height: 13px;
+		background: $accent-color;
+	}
 }

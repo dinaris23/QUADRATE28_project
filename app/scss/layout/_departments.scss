@@ -1,3 +1,33 @@
 .departments {
-	margin-top: $sc-padding-t;
+	margin-top: 40%;
+
+	&_row {
+		display: flex;
+		border-top: $grey-border;
+		&:last-child {
+			border-bottom: $grey-border;
+		}
+	}
+	&_block {
+		
+		flex-basis: 50%;
+		padding-left: 4%;
+		padding-top: 4%;
+		padding-right: 3%;
+		position: relative;
+
+		&:nth-child(odd) {
+			border-right: $grey-border;
+		}
+		& h2 {
+			margin: 0;
+			padding-top: 2%;
+		}
+	}
+	&_item {
+		margin-bottom: 20px;
+	}
+	&_list {
+		padding-bottom: 15%;
+	}
 }

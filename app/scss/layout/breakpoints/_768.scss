@@ -1,4 +1,19 @@
 @media screen and (max-width:768px) {
+
+  .departments {
+    &_row {
+        flex-direction: column;
+    }
+    &_block {
+        &:nth-child(odd) {
+          border-right: none;
+    }
+        &:first-child {
+          border-bottom: $grey-border;
+        }
+  }
+}
+
   .intro {
   		&_row {
   			
@@ -28,5 +43,5 @@
             left: -2.5em;
       }
    }
-	}
-}
+  
+}}
