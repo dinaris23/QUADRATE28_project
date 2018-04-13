@@ -1,12 +1,13 @@
 @media screen and (max-width:768px) {
   .intro {
   		&_row {
-  			flex-direction: column;
+  			
   		}
   		&_col {
   			&:last-child {
-  		text-align: center;
-  		padding: 50px 20px;
+  		    flex-basis: 100%;
+          padding: 50px 20px;
+  		
   			}
   		}
   		&_content {
