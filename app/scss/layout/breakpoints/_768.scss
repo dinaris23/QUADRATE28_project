@@ -1,5 +1,16 @@
 @media screen and (max-width:768px) {
+   .about {
+      &_content {
+        flex-direction: column;
+        border-left:  1px solid $accent-color;
+        padding-left: 20px;
+      }
+      &_item {
+        border-right: none;
+        padding: 0;
 
+      }
+ }
   .departments {
     &_row {
         flex-direction: column;
