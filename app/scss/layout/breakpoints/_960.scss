@@ -18,7 +18,11 @@
    .tasks_title {
     display: none;
    }
-   &_text {
+   .tasks_block:last-child {
     flex-basis: 100%;
+   }
+   .tasks_block:first-child {
+    flex-basis: 0;
+  }
 }
  
