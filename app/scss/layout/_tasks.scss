@@ -1,0 +1,41 @@
+.tasks {
+	&_content {
+		display: flex;
+		align-items: stretch;
+
+	}
+	&_subtitle {
+		flex-basis: 25%;
+		margin-right: 40px;
+	}
+	&_text {
+		flex-basis: 75%;
+	}
+	&_block:last-child {
+		flex-basis: 75%;
+		margin-left: 5%;
+	}
+	&_block:first-child {
+		flex-basis: 25%;
+		align-self: flex-end;
+
+	}
+	&_title {
+		margin: 0;
+		padding: 0;
+	}
+	&_items {
+		border-bottom: 1px solid $accent-color;
+		display: flex;
+		padding: 5% 15%;
+		&:first-child {
+			border-top: 1px solid $accent-color;
+		}
+	}
+	&_btn {
+		width: 20%;
+		text-align: center;
+		display: inline-block;
+		margin-top: 100px;
+	}
+}
