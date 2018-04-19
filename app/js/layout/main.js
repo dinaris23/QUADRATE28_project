@@ -19,41 +19,7 @@ jQuery(document).ready(function(){
                 }
         });
     });
-    //=====one page scroll====//
-$(function() {
-    $('.arrow-scroll').click (function() {
-      $('html, body').animate({scrollTop: $('.scroll_block').offset().top }, 'slow');
-      return false;
-    });
-  });
-  
-  $(function() {
-    var limit = $('.scroll_block').offset().top
-      , tempScrollTop = 0
-      , currentScrollTop = 0
-      , animating = false
-      , target = $('html, body');
-    $(document).scroll(function(e) {
-      if (animating) {
-        return;
-      }
-      currentScrollTop = $(document).scrollTop();
-      if (tempScrollTop < currentScrollTop && currentScrollTop < limit) {     
-        animating = true;
-        target.stop(true).animate({ scrollTop: limit }, 300, function() {
-          animating = false;
-          tempScrollTop = $(document).scrollTop();
-        });
-      }
-      else if (tempScrollTop > currentScrollTop && currentScrollTop < limit) {
-        animating = true;
-        target.stop(true).animate({ scrollTop: 0 }, 300, function() {
-          animating = false;
-          tempScrollTop = $(document).scrollTop();
-        });
-      }  
-    });
-  });
+
         
 });    
   
