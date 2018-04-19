@@ -5,7 +5,7 @@ html {
 body {
 	font-family: $common-font;
 	@include fontSize(20);
-	max-width: 1920px;
+	max-width: 100%;
 }
 
 .btn-tr {
